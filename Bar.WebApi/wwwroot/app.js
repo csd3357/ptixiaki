@@ -552,7 +552,7 @@ async function loadTableDetails(id) {
 
     const btnCard = document.createElement("button");
     btnCard.className = "btn btn";
-    btnCard.onclick = () => closeCurrentTable("cash");
+    btnCard.onclick = () => closeCurrentTable("card");
 
     // function to recalc labels when discount changes
     function updatePaymentLabels() {
